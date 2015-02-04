@@ -1,8 +1,6 @@
 # hazelcasttestV2
 
-ServerController - Core Controller and entry point of the program. 
-
-                   It has logic to co ordinate start a server as well as check if peers are running.
+ServerController - Core Controller and entry point of the program. It has logic to co ordinate start a server as well as check if peers are running.
                    
 TcpServer - Runs a server on a specific port (from configuration) - In V2, only start IP is mentioned in conf, the TcpServer will pick the next one if not available
 
